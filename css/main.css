@@ -15,12 +15,12 @@
 }
 
 .login-form {
-margin-top: 60px;
-font-size: 18px;
-font-weight: 700;
-width: 328px;
-margin-left: auto;
-margin-right: auto;
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 328px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login-form >h3 {
@@ -31,13 +31,6 @@ margin-right: auto;
     width: 328px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.login-identify >a {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: 100;
 }
 
 .login-form-box >input {
@@ -59,12 +52,20 @@ margin-right: auto;
     margin-top: 8px;
     border-radius: 4px;
     border-color: #000;
+    cursor: pointer;
 }
 
 .login-identify {
     margin-top: 20px;
     font-size: 16px;
     text-align: center;
+}
+
+.login-identify >a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 /* SNS 로그인폼 */
@@ -83,29 +84,18 @@ margin-right: auto;
     text-align: left;
 }
 
-.sns-btn-wrap >div {
-    display: inline-block;
-    line-height: 48px;
+.sns-btn-wrap {
+    padding: 0;
 }
 
 .sns-login button {
     width: 328px;
     height: 48px;
-    border: none;
+    border: 0;
     font-size: 16px;
     border-radius: 4px;
     margin-top: 12px;
-    font-weight: bold;
 }
-
-/* .sns-login img {
-    float: left;
-    margin-top: 8px;
-}
-
-.sns-login span {
-    float: left;
-} */
 
 .kakao-login >button {
     background-color: #fae100;
@@ -118,12 +108,26 @@ margin-right: auto;
     color: #fff;
 }
 
+.sns-btn {
+    padding: 0;
+}
+
 .sns-btn > div {
     line-height: 48px;
     display: inline-block;
 }
 
+.sns-btn img {
+    float: left;
+    margin-top: 8px;
+}
+
+.sns-btn span {
+    float: left;
+}
+
 .sign {
+    display: inline-block;
     margin-top: 20px;
     text-align: center;
     font-size: 16px;
@@ -160,8 +164,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
+    font-family: Spoqa Han Sans,"Sans-serif";
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
