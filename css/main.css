@@ -111,6 +111,45 @@ body {
     margin: 0 auto;
 }
 
+/* event section */
+.evt-wrap {
+    margin-top: 48px;
+}
+
+.evt-lf {
+    float: left;
+}
+
+.evt-rgt {
+    float: right;
+}
+
+/* swiper */
+.swiper {
+    width: 576px;
+    height: 300px;
+    display: inline-block;
+}
+
+.swiper-slide span{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.slide-navigation {
+    width: 103px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    position: absolute;
+    left: 8px;
+    top: 136px;
+    z-index: 1;
+    justify-content: space-between;
+}
+
 /* horizon center */
 .inner-box {
     width: 1184px;
