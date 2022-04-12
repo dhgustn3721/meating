@@ -1,3 +1,7 @@
+* {
+    font-family: Spoqa Han Sans,"Sans-serif";
+}
+
 body {
     height: 2000px;
 }
@@ -10,21 +14,88 @@ body {
 }
 
 /* header */
+.nvgt a {
+    color: white;
+}
+
 .nvgt {
     width: 100%;
     min-width: 1184px;
     height: 96px;
     background-color: #000;
     color: #fff;
-    /* position: fixed; */
-    top: 0;
     z-index: 10;
+    /* position: fixed; */
+    /* top: 60; */
+}
+
+.nvgt-wrap {
+    padding-top: 26px;
 }
 
 .nvgt-left {
-    
+    float: left;
 }
 
+.logo {
+    display: inline-block;
+}
+
+.lf-gnb {
+    display: inline-block;
+    margin-left: 34px;
+    margin-bottom: 18px;
+}
+
+.lf-gnb-list {
+    float: left;
+    padding: 0 5px;
+    margin-right: 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nvgt-right {
+    float: right;
+    margin-top: 16px;
+}
+
+.nvgt-right li {
+    font-size: 14px;
+}
+
+.sub-lf {
+    display: inline-block;
+}
+
+.sub-lf::after {
+    content: "";
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 14px 0 20px;
+    background-color: #fff;
+}
+
+.sub-lf-ls {
+    float: left;
+}
+
+.sub-lf-ls:nth-child(2) {
+    margin-left: 12px;
+}
+
+.sub-rgt {
+    display: inline-block;
+}
+
+.sub-rgt-ls {
+    float: left;
+}
+
+.sub-rgt-ls:nth-child(2) {
+    margin-left: 12px;
+}
 
 /* main banner */
 .mb-wrap {
