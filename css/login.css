@@ -110,6 +110,7 @@
 
 .sns-btn {
     padding: 0;
+    cursor: pointer;
 }
 
 .sns-btn > div {
