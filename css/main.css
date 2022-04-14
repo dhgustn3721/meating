@@ -2,15 +2,21 @@
     font-family: Spoqa Han Sans,"Sans-serif";
 }
 
-body {
-    height: 2000px;
-}
-
 /* top banner */
 .tb-wrap {
     width: 100%;
     height: 60px;
     background-image: radial-gradient(circle at 50% 527%,#ff896a,#e23000 119%);
+    position: relative;
+}
+
+.tb-close {
+    width: 60px;
+    margin-left: 1120px;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
 }
 
 /* header */
@@ -116,12 +122,21 @@ body {
     margin-top: 48px;
 }
 
+.evt-wrap::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .evt-lf {
+    width: 576px;
+    height: 176px;
     float: left;
+    position: relative;
 }
 
 .evt-rgt {
-    float: right;
+    float: left;
 }
 
 /* swiper */
@@ -150,9 +165,112 @@ body {
     justify-content: space-between;
 }
 
+.arrow-btn {
+    color: #000 !important;
+}
+
+/* product section */
+.pdt-wrap {
+    margin-top: 80px;
+}
+
+.pdt-title {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.pdt-list {
+    margin-top: 32px;
+    width: 100%;
+    height: 1090px;
+}
+
+.pdt-list-item {
+    float: left;
+    width: 376px;
+    margin-right: 28px;
+    margin-bottom: 61px;
+}
+
+.pdt-list-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.pdt-list-item > div {
+    width: 100%;
+    height: 416px;
+    background-color: #f9f7f8;
+    position: relative;
+}
+
+.index-tag {
+    position: absolute;
+    color: #68d1e6;
+    border: 2px solid #68d1e6;
+    border-radius: 50px;
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    top: 16px;
+    left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pdt-list-img {
+    width: 276px;
+    height: 276px;
+    margin-top: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.cart-btn {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    box-shadow: 0 25px 10px -15px rgb(0 0 0 / 12%);
+    border: 2px solid #eee;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -18px;
+    margin-left: 288px;
+    display: block;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background-color: #212121;
+}
+
+.pdt-item-name {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.pdt-item-paragraph {
+    font-size: 16px;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+/* footer section */
+.ft {
+    margin-top: 150px;
+    border-top: 1px solid #bdbdbd;
+}
+
+
+/* ============================= */
+
 /* horizon center */
 .inner-box {
     width: 1184px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
